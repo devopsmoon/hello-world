@@ -1,2 +1,2 @@
-<h1> Hello, Welcome to sayeed Technologies !!! </h1>
+<h1> Hello, Welcome to Rayn Technologies !!! </h1>
 
