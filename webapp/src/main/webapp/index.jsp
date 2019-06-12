@@ -1,2 +1,2 @@
-<h1> Hello, Welcome to Ayanuddin  DULAY ........ Technologies !!! </h1>
+<h1> Hello, Welcome to Rayanuddin  DULAY ........ Technologies !!! </h1>
 
