@@ -32,13 +32,13 @@
 		 <snapshotRepository>
 		    <id>nexus</id>
                             <name>Maven Project</name>
-		    <url>http://172.31.11.28:8081/repository/maven-snapshots/</url>
+		    <url>http://35.154.195.80:8081/repository/maven-snapshots/</url>
 		 </snapshotRepository>
 		
 		<repository>
 		    <id>nexus</id>
                            <name>Maven Project</name>
-		    <url>http://172.31.11.28:8081/repository/maven-releases/</url>
+		    <url>http://35.154.195.80:8081/repository/maven-releases/</url>
 		</repository>
   	</distributionManagement>
   <build>
