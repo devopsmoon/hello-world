@@ -21,14 +21,26 @@
     <module>webapp</module>
   </modules>
 
-  <distributionManagement>
-    <site>
-      <id>site-server</id>
-      <name>Test Project Site</name>
-      <url>file:///tmp/maven-project-site</url>
-    </site>
-  </distributionManagement>
-
+ # <distributionManagement>
+  #  <site>
+   #   <id>site-server</id>
+    #  <name>Test Project Site</name>
+     # <url>file:///tmp/maven-project-site</url>
+    # </site>
+   # </distributionManagement>
+<distributionManagement>
+		 <snapshotRepository>
+		    <id>nexus</id>
+                            <name>Maven Project</name>
+		    <url>http://172.31.11.28:8081/repository/maven-snapshots/</url>
+		 </snapshotRepository>
+		
+		<repository>
+		    <id>nexus</id>
+                           <name>Maven Project</name>
+		    <url>http://172.31.11.28:8081/repository/maven-releases/</url>
+		</repository>
+  	</distributionManagement>
   <build>
     <plugins>
       <plugin>
