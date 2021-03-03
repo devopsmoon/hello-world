@@ -29,18 +29,17 @@
      </site>
     </distributionManagement> -->
 <distributionManagement>
-		 <snapshotRepository>
-		    <id>nexus</id>
-                            <name>Maven Project</name>
-		    <url>http://35.154.195.80:8081/repository/maven-snapshots/</url>
-		 </snapshotRepository>
-		
-		<repository>
-		    <id>nexus</id>
-                           <name>Maven Project</name>
-		    <url>http://35.154.195.80:8081/repository/maven-releases/</url>
-		</repository>
-  	</distributionManagement>
+        <repository>
+            <id>releases</id>
+            <name>myrepo</name>
+            <url>http://13.127.72.220:8081/repository/myrepo/</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>myrepo1</name>
+            <url>http://13.127.72.220:8081/repository/myrepo1/</url>
+        </snapshotRepository>
+    </distributionManagement>
   <build>
     <plugins>
       <plugin>
